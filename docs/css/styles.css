@@ -11056,6 +11056,15 @@ textarea.form-control-lg {
       font-size: 3rem;
       line-height: 2.5rem;
     }
+
+    .image-bordered{
+      box-sizing: border-box;
+      display: block;
+      max-width: 100%;
+      height: auto;
+      vertical-align: middle;
+      border: 0;
+    }
   }
 
   .footer {
@@ -11121,219 +11130,32 @@ textarea.form-control-lg {
   }
 
   @media only screen and (max-width: 575px) {
-    /* Gaya untuk timeline */
-    .timeline {
-      background-color: white;
-      padding: 20px;
-      border-radius: 5px;
-    }
-
-    .event {
-      position: relative;
-      margin-bottom: 20px;
-      display: flex;
-      align-items: center;
-    }
-
-    .event-info {
-      width: 30px;
-      height: 30px;
-      background-color: #1abc9c;
-      border-radius: 50%;
-      text-align: center;
-      color: white;
-      font-weight: bold;
-      line-height: 30px;
-    }
-
-    /* Garis antara poin */
-    .event-line {
-      width: 2px;
-      background-color: #1abc9c;
-      height: 100%;
-      position: absolute;
-      left: 15px;
-      top: 30px; /* Sesuaikan dengan tinggi ikon */
-    }
-
-    /* Tahun di sebelah kiri */
-    .event span:first-child {
-      margin-left: 10px;
-    }
-
-
-    /* Jarak antara ikon dan teks */
-    .even-content {
-      margin-left: 7px; /* Atur jarak yang sesuai */
-    }
-
-    /* Menghapus garis bawah pada ikon di konten terakhir */
-    .event:last-child .event-line {
-      display: none;
-    }
-
-  }
-  /* Gaya untuk timeline */
-  .timeline {
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
-  }
-
-  .event {
-    position: relative;
-    margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-  }
-
-  .event-info {
-    width: 30px;
-    height: 30px;
-    background-color: #1abc9c;
-    border-radius: 50%;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    line-height: 30px;
-  }
-
-  /* Garis antara poin */
-  .event-line {
-    width: 2px;
-    background-color: #1abc9c;
-    height: 100%;
-    position: absolute;
-    left: 15px;
-    top: 30px; /* Sesuaikan dengan tinggi ikon */
-  }
-
-  /* Tahun di sebelah kiri */
-  .event span:first-child {
-    margin-left: 10px;
-  }
-
-
-  /* Jarak antara ikon dan teks */
-  .even-content {
-    margin-left: 7px; /* Atur jarak yang sesuai */
-  }
-
-  /* Menghapus garis bawah pada ikon di konten terakhir */
-  .event:last-child .event-line {
-    display: none;
-  }
-
-  @media only screen and (max-width: 575px) {
-    /* Gaya untuk timeline */
-    .timeline {
-      background-color: white;
-      padding: 20px;
-      border-radius: 5px;
-    }
-
-    .event {
-      position: relative;
-      margin-bottom: 20px;
-      display: flex;
-      align-items: center;
-    }
-
-    .event-info {
-      width: 30px;
-      height: 30px;
-      background-color: #1abc9c;
-      border-radius: 50%;
-      text-align: center;
-      color: white;
-      font-weight: bold;
-      line-height: 30px;
-    }
-
-    /* Garis antara poin */
-    .event-line {
-      width: 2px;
-      background-color: #1abc9c;
-      height: 100%;
-      position: absolute;
-      left: 15px;
-      top: 30px; /* Sesuaikan dengan tinggi ikon */
-    }
-
-    /* Tahun di sebelah kiri */
-    .event span:first-child {
-      margin-left: 10px;
-    }
-
-
-    /* Jarak antara ikon dan teks */
-    .even-content {
-      margin-left: 7px; /* Atur jarak yang sesuai */
-    }
-
-    /* Menghapus garis bawah pada ikon di konten terakhir */
-    .event:last-child .event-line {
-      display: none;
-    }
-
-  }
-  /* Gaya untuk timeline */
-  .timeline {
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
-  }
-
-  .event {
-    position: relative;
-    margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-  }
-
-  .event-info {
-    width: 30px;
-    height: 30px;
-    background-color: #1abc9c;
-    border-radius: 50%;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    line-height: 30px;
-  }
-
-  /* Garis antara poin */
-  .event-line {
-    width: 2px;
-    background-color: #1abc9c;
-    height: 100%;
-    position: absolute;
-    left: 15px;
-    top: 30px; /* Sesuaikan dengan tinggi ikon */
-  }
-
-  /* Tahun di sebelah kiri */
-  .event span:first-child {
-    margin-left: 10px;
-  }
-
-
-  /* Jarak antara ikon dan teks */
-  .even-content {
-    margin-left: 7px; /* Atur jarak yang sesuai */
-  }
-
-  /* Menghapus garis bawah pada ikon di konten terakhir */
-  .event:last-child .event-line {
-    display: none;
-  }
-
-  @media only screen and (max-width: 575px) {
    /* Gaya untuk timeline */
    .timeline {
     background-color: white;
     padding: 20px;
     border-radius: 5px;
+  }
+
+  .titles-contact{
+    /* font-size: 16px; */
+    margin-left: 40px;
+  } 
+
+  .image-bordered{
+    display: none;
+  }
+
+  .datas-contact{
+    font-size: 12px;
+  }
+
+  .names{
+    display: none;
+  }
+
+  .description-names{
+    margin-top: -20%;
   }
 
   .event {
@@ -11450,12 +11272,12 @@ textarea.form-control-lg {
   }
 
   /* Styling for the macbook container */
-    .container #macbook-container {
-        position: relative;
-        background-image: url('assets/img/macbook.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-        height: 550px;
+    .macbook-containers {
+      position: relative;
+      background-image: url('assets/img/macbook.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 710px;
     }
 
     /* Styling for the macbook inner content */
@@ -11495,4 +11317,15 @@ textarea.form-control-lg {
         .contact-image {
             display: none; 
         }
+
+        .image-bordered{
+          box-sizing: border-box;
+          display: block;
+          max-width: 100%;
+          height: auto;
+          vertical-align: middle;
+          border: 0;
+          display: none;
+        }
+
     }
