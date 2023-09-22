@@ -196,5 +196,18 @@
             setTimeout(showSlides, 3000);
         }
     </script>
+
+        <script>
+    document.getElementById("emailInput").addEventListener("input", function() {
+        // Ambil nilai dari input
+        var inputValue = this.value;
+
+        // Ganti URL tujuan sesuai dengan nilai yang diinputkan
+        var targetURL = "https://www.example.com/" + inputValue;
+
+        // Arahkan pengguna ke URL tujuan
+        window.location.href = targetURL;
+    });
+</script>
 </body>
 </html>
