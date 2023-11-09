@@ -11307,9 +11307,6 @@ textarea.form-control-lg {
     }
 
     @media (max-width: 768px) {
-        .masthead .masthead-heading {
-           font-size: 10px;
-        }
      
         .macbook-container {
             background-image: none;
