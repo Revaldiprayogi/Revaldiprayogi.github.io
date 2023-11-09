@@ -3297,9 +3297,9 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 768px) {
-/*   .masthead-avatar{
+  .masthead-avatar{
    display: none;
-  } */
+  }
   .dropdown-menu-md-start {
     --bs-position: start;
   }
