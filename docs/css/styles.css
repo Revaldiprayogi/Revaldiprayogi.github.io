@@ -11307,7 +11307,10 @@ textarea.form-control-lg {
     }
 
     @media (max-width: 768px) {
-     
+        .masthead .masthead-heading{
+           font-size: 14px;
+        }
+      
         .macbook-container {
             background-image: none;
             background-color: transparent;
