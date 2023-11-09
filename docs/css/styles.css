@@ -1941,11 +1941,18 @@ progress {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
+  .masthead-avatar{
+   display: none;
+  }
+   
 }
 @media (max-width: 991.98px) {
   .table-responsive-lg {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+  }
+ .masthead-avatar{
+   display: none;
   }
 }
 @media (max-width: 1199.98px) {
@@ -3279,6 +3286,10 @@ textarea.form-control-lg {
 }
 
 @media (min-width: 576px) {
+  .masthead-avatar{
+   display: none;
+  }
+ 
   .dropdown-menu-sm-start {
     --bs-position: start;
   }
@@ -3295,6 +3306,9 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 768px) {
+  .masthead-avatar{
+   display: none;
+  }
   .dropdown-menu-md-start {
     --bs-position: start;
   }
@@ -3311,6 +3325,10 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 992px) {
+  .masthead-avatar{
+   display: none;
+  }
+ 
   .dropdown-menu-lg-start {
     --bs-position: start;
   }
