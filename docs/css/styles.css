@@ -3297,9 +3297,9 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 768px) {
-  .masthead-avatar{
+/*   .masthead-avatar{
    display: none;
-  }
+  } */
   .dropdown-menu-md-start {
     --bs-position: start;
   }
@@ -3316,9 +3316,6 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 992px) {
-  .masthead-avatar{
-   display: none;
-  }
  
   .dropdown-menu-lg-start {
     --bs-position: start;
