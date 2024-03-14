@@ -11334,13 +11334,4 @@ textarea.form-control-lg {
           border: 0;
           display: none;
         }
-
-        .center {
-          text-align: center;
-        }
-      
-        .center button {
-          margin-top: 35px;
-          display: inline-block;
-        }
     }
